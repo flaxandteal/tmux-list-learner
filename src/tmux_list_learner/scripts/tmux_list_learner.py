@@ -51,6 +51,7 @@ def cli(server_start, session_name, window_index):
     random.shuffle(keys)
     key = keys[n]
 
-    window_name = window_names[key][min(window_index, len(window_names[key]) - 1)]
+    window_offset = min(window_index, len(window_names[key])) - 1
+    window_name = window_names[key][window_offset]
 
     print(window_name)
