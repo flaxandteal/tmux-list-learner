@@ -8,6 +8,10 @@ Note that spaces are not currently supported.
 
 ## Install
 
-To use this, install `tmux-list-leaner` so it can be accessed in your path, then add the lines in `tmux.conf.append` to your `~/.tmux.conf`
+To use this, install `tmux-list-leaner` so it can be accessed in your path:
+
+    python3 setup.py install --user
+
+Next, add the lines in `tmux.conf.append` to your `~/.tmux.conf`
 
 A default set of things to learn is created in your user config directory on first run. On Linux, this is `~/.config/tmux-list-learner/list.yaml`
