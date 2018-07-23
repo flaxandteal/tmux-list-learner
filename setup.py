@@ -19,7 +19,8 @@ setup(
     keywords='tmux learning',
     install_requires=[
         'Click',
-        'pyyaml'
+        'pyyaml',
+        'appdirs'
     ],
     entry_points='''
         [console_scripts]
