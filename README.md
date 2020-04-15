@@ -8,7 +8,7 @@ Note that spaces are not currently supported.
 
 ## Install
 
-To use this, install `tmux-list-leaner` so it can be accessed in your path:
+To use this, install `tmux-list-learner` so it can be accessed in your path:
 
     python3 setup.py install --user
 
