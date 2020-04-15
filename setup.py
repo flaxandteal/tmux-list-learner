@@ -1,9 +1,14 @@
 from setuptools import setup, find_packages
 
+with open('README.md', 'r') as f:
+    long_description = f.read()
+
 setup(
     name='tmux_list_learner',
-    version='0.0.2',
+    version='0.1.0',
     description='List learning tool using tmux windows',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     url='https://github.com/flaxandteal/tmux_list_learner',
     author='Phil Weir',
     author_email='phil.weir@flaxandteal.co.uk',
