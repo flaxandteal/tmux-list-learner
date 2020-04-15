@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='tmux_list_learner',
-    version='0.0.1',
+    version='0.0.2',
     description='List learning tool using tmux windows',
     url='https://github.com/flaxandteal/tmux_list_learner',
     author='Phil Weir',
@@ -11,7 +11,7 @@ setup(
     packages=find_packages('src'),
     package_dir={'': 'src'},
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.7'
