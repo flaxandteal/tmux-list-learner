@@ -40,12 +40,12 @@ def load_window_names(overwrite=False):
 def cli(server_start, session_name, window_index):
     window_names = load_window_names()
 
+    random.seed(server_start)
+
     if session_name[-1].isdigit() and int(session_name[-1]) < len(window_names) - 1:
         n = int(session_name[-1])
     else:
         n = random.randint(0, len(window_names) - 1)
-
-    random.seed(server_start)
 
     keys = list(window_names.keys())
     random.shuffle(keys)
