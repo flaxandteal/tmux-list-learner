@@ -5,7 +5,7 @@ with open('README.md', 'r') as f:
 
 setup(
     name='tmux_list_learner',
-    version='0.1.0',
+    version='0.2.0',
     description='List learning tool using tmux windows',
     long_description=long_description,
     long_description_content_type='text/markdown',
